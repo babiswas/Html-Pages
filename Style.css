@@ -1,0 +1,181 @@
+body
+{
+ background-color: black;
+}
+
+/****************************************NAVBAR*************************************/
+ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+display:inline-block;
+}
+ul li
+{
+ float:left;
+ width:200px;
+ height:40px;
+ background-color:black;
+ line-height:40px;
+ text-align:center;
+ font-size:20px;
+ margin-right:2px;
+}
+ul li a
+{
+ text-decoration:none;
+ color:white;
+ display:block;
+ font-family: "Comic Sans MS";
+}
+ul li a:hover
+{
+ background-color:#00B000;
+}
+ul li ul li
+{
+ display:none;
+}
+ul li:hover ul li
+{
+  display:block;
+}
+/**********************************************/
+/*********************************************************BODY**********************************************************************/
+.container
+{
+ display:flex;
+ margin-top:200px;
+}
+
+.container div
+{
+ border:1px solid black;
+ padding:10px;
+}
+.News
+{
+ flex:4;
+}
+.News
+{
+ flex:6;
+}
+.Register
+{
+  flex:4;
+}
+
+
+/*****************************************Registration Form************************************************************/
+
+.row
+        {
+          padding:10px;
+          border-radius:2px;
+          width:300px;
+        }
+        .width150px{ width: 150px; display:inline-block;}
+        .odd{background-color:#00B000 }
+        .con
+        {
+          padding:10px;
+          border:1px solid;
+          border-radius:15px;
+          width:323px;
+          height:623px;
+          position:relative;
+          left:500px;
+          top:100px;
+        }
+        input[type=text] 
+        {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         box-sizing: border-box;
+         border-radius: 4px;
+        }
+        label 
+        {
+	cursor: pointer;
+	color: #ffffff;
+	display: block;
+	padding: 5px;
+	margin: 3px;
+        }
+        .butt
+        {
+           background-color: #000000; /* Green */
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:115px;
+  
+        }
+/*********************************************FOOTER********************************************************************/
+.Footer
+{
+ display:flex;
+ margin-top:100px;
+ justify-content:space-between;
+}
+
+.Footer div
+{
+ padding:10px;
+ width:300px;
+}
+.Priority
+{
+  flex:3;
+  border-left:1px solid white;
+}
+
+.WorkFlow
+{
+  flex:3;
+  border-left:1px solid white;
+}
+.Sanity
+{
+  flex:3;
+  border-left:1px solid white;
+}
+.Story
+{
+  flex:3;
+  border-left:1px solid white;
+}
+
+/**************************Element********************************************/
+h1
+{
+	font-family: "Courier";
+}
+h3
+{
+	font-family: "Courier";
+}
+p
+{
+	font-family: "Comic Sans MS";
+}
+
+.frow
+{
+ background-color:#404040;	
+ border:1px solid black;
+ border-radius:7px;
+}
+
+.frow:hover
+{
+ background-color:#00B000;
+}
